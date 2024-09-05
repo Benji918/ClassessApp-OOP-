@@ -4,18 +4,18 @@
     {
         static void Main(string[] args)
         {
-            // Created instance of class car
-            Car audi  = new Car("i8", "audi", false);
-            Car benz = new Car("E class", "benz", true);
+            // Customer instance
+            /*Customer customer = new Customer(name:"Benjamin");
+            Customer frank = new Customer(name: "Frank", address: "oddjdidjf", contactNumber:"08033473998");
+            Customer JogDoe = new Customer();
+            Console.WriteLine($"Name of customer is {customer.Name}");
+            Console.WriteLine($"Name of customer is {frank.Name}");
+            Console.WriteLine($"Name of customer is {JogDoe.Name}");*/
 
-            // Using the Car property
-            // Settting brand
-            Console.WriteLine("Enter car brand please");
-            audi.Brand = Console.ReadLine();
+            Car Audi = new Car(brand: "Audi", isluxury: true, model: "I3");
+            Audi.IsDrive();
 
-            // Getting brand name
-            Console.WriteLine($"Audi car brand is {audi.Brand}");
-            Console.WriteLine($"Audi car brand is {benz.Brand}");
+
             Console.ReadKey();
         }
     }

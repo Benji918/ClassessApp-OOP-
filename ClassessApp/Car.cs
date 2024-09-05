@@ -58,5 +58,10 @@ namespace ClassessApp
 
         public bool IsLuxury { get; set; }
         //public bool Isluxury { get => _isluxury; set => _isluxury = value; }
+
+        public void IsDrive()
+        {
+            Console.WriteLine($"I am a {Model} and I\'m driving!");
+        }
     }
 }
