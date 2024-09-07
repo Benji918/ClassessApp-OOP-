@@ -10,6 +10,7 @@ namespace ClassessApp
     {
 
         public static int NumberOfCars = 0;
+        private readonly int _Id;
         // member variable
         // private keyword hides the variable from other classes
         //private string _model = "";
