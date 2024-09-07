@@ -33,6 +33,20 @@ namespace ClassessApp
         {
             Name = name;
         }
+
+        // methods
+        public void SetDetails(string name, string address, string contactNumber)
+        {
+            Name = name;
+            Address = address;
+            ContactNumber = contactNumber;
+        }
+
+        // static method
+        public static void DoSomething()
+        {
+            Console.WriteLine("Hello there");
+        }
     }
 
     

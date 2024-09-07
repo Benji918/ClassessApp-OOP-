@@ -8,6 +8,8 @@ namespace ClassessApp
 {
     internal class Car
     {
+
+        public static int NumberOfCars = 0;
         // member variable
         // private keyword hides the variable from other classes
         //private string _model = "";
@@ -62,6 +64,11 @@ namespace ClassessApp
         public void IsDrive()
         {
             Console.WriteLine($"I am a {Model} and I\'m driving!");
+        }
+
+        public Car()
+        {
+            NumberOfCars++;
         }
     }
 }
